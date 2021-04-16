@@ -4,6 +4,7 @@
 
 body {
     border: 1px solid red;
+    min-height: 100vh;
     font-family: var(--ff-primary);
     font-size: var(--fz);
     display: flex;
@@ -15,7 +16,7 @@ body {
 
 .header {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 .title,
