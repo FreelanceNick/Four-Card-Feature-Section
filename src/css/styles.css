@@ -147,15 +147,15 @@ select {
 }
 
 body {
-  border: 1px solid red;
-  min-height: 100vh;
   font-family: var(--ff-primary);
   font-size: var(--fz);
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 1rem;
+  overflow: hidden;
 }
 
 .header {
