@@ -1,0 +1,48 @@
+@use './abstracts/root';
+@use './base/reset';
+@use './components/cards';
+
+body {
+    border: 1px solid red;
+    font-family: var(--ff-primary);
+    font-size: var(--fz);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+}
+
+.title,
+.subtitle {
+    color: var(--clr-neutral-600);
+}
+
+.one {
+    grid-row: span 2;
+    align-self: center;
+    border-top: 5px solid var(--clr-primary-200);
+}
+
+.two {
+    grid-column: 2 / 3;
+    border-top: 5px solid var(--clr-primary-500);
+}
+
+.three {
+    grid-column: 2 / 3;
+    border-top: 5px solid var(--clr-primary-300);
+}
+
+.four {
+    grid-row: 1 / span 2;
+    grid-column: 3 / 4;
+    align-self: center;
+    border-top: 5px solid var(--clr-primary-600);
+}
+
+
+// STYLES ABOVE THIS LINE

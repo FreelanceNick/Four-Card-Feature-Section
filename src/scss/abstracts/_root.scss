@@ -1,0 +1,28 @@
+:root {
+
+    // Supervisor
+    --clr-primary-200: hsl(180, 62%, 55%);
+    // Team Builder
+    --clr-primary-500: hsl(0, 78%, 62%);
+    // Karma
+    --clr-primary-300: hsl(34, 97%, 64%);
+    // Calculator
+    --clr-primary-600: hsl(212, 86%, 64%);
+
+    // 
+    --clr-neutral-100: hsl(0, 0%, 98%);
+    // quote
+    --clr-neutral-300: hsl(229, 6%, 66%);
+    // Title, subtitle, card headers
+    --clr-neutral-600: #4c4e61;
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+    --ff-primary: 'Poppins', sans-serif;
+    --fz: 0.9375rem;
+
+    --fw-200: 200;
+    --fw-400: 400;
+    --fw-600: 600;
+}
