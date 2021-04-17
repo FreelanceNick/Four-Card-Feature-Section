@@ -115,7 +115,7 @@ select {
     align-items: center;
   }
   .characteristics .role {
-    max-width: 20rem;
+    max-width: 21rem;
   }
   .characteristics .one {
     grid-row: span 2;
@@ -174,19 +174,20 @@ body {
 }
 
 .quote {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   max-width: 35rem;
   color: var(--clr-neutral-300);
-  font-weight: var(--fw-200);
+  font-weight: 100;
   margin-top: 1rem;
 }
 
 .role__title {
+  font-size: 1.2rem;
   color: var(--clr-neutral-600);
 }
 .role__description {
   color: var(--clr-neutral-300);
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: var(--fw-400);
 }
 
