@@ -1,0 +1,80 @@
+header {
+    max-width: 33.75rem;
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
+.summary {
+    margin-bottom: 4.75rem;
+    line-height: 1.667em;
+
+    @media (min-width: 62.5em) {
+        margin-bottom: 4rem;
+    }
+}
+
+.roles {
+    max-width: 69.375em;
+
+    display: grid;
+
+    grid-gap: 1.875rem;
+
+}
+
+.card {
+    // Temp styles
+
+
+    /* Card Width */
+    max-width: 21.875em;
+    width: 100%;
+
+    padding: 1.6875rem 1.75rem 1.75rem;
+
+    border-radius: .25rem;
+
+    // Box Shadow Blur
+    box-shadow: 0 15px 30px rgba(131, 166, 210, 0.5);
+
+    img {
+        max-width: 3.5625rem;
+    }
+
+    h2 {
+        margin-bottom: 1px;
+    }
+
+    p {
+        margin-bottom: 2.0625rem;
+    }
+
+
+    &__cyan {
+        border-top: 4px solid var(--cyan);
+    }
+    &__red {
+        border-top: 4px solid var(--red);
+    }
+    &__orange {
+        border-top: 4px solid var(--orange);
+    }
+    &__blue {
+        border-top: 4px solid var(--blue);
+    }
+
+
+    @media (min-width: 62.5em) {
+        h2 {
+            margin-bottom: 0.375rem;
+        }
+        p {
+            margin-bottom: 2.5rem;
+        }
+        img {
+            max-width: 4rem;
+        }
+    }
+}

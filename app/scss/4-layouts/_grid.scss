@@ -1,0 +1,49 @@
+.roles {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1.875rem;
+
+    align-content: center;
+
+
+    .card {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            margin-left: auto;
+        }
+    }
+
+
+    @media (min-width: 62.5em) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (min-width: 62.5em) {
+    .card__cyan {
+        grid-column: 1;
+        grid-row: span 2;
+        align-self: center;
+    }
+
+    .card__red {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .card__orange {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .card__blue {
+        grid-column: 3;
+        grid-row: span 2;
+        align-self: center;
+    }
+}

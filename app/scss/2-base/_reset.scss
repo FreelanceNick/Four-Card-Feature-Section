@@ -1,8 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+
 /* Box sizing rules */
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 /* Remove default margin */
@@ -22,9 +26,9 @@ dd {
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[class],
 ol[class] {
-  list-style: none;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 /* Set core root defaults */
@@ -36,7 +40,7 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 /* A elements that don't have a class get default styles */
@@ -74,7 +78,3 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
-
-
-// reference page: https://piccalil.li/blog/a-modern-css-reset
